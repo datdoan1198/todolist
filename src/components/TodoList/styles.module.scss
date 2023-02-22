@@ -1,0 +1,22 @@
+.listTodoWrap {
+  padding: 20px 0;
+  .todoItem {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid darkgray;
+
+    .infoItemTodo {
+      .name {
+        padding-left: 10px;
+      }
+    }
+
+    .actionWrap {
+      .icon {
+        margin: 0 2px;
+        cursor: pointer;
+      }
+    }
+  }
+}
